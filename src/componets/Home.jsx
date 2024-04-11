@@ -3,10 +3,10 @@ export default function Home() {
   return (
     <div className="bg-white w-full h-[87vh] relative">
       <img src={home_bg} className="w-full h-full absolute z-0 " alt="" />
-      <div className="z-30 absolute h-full flex justify-center items-center">
+      <div className="z-30 absolute h-full md:flex justify-center items-center">
         <div className="md:w-4/5 w-full px-3 flex justify-between">
           <div className="w-3/5 text-white  flex flex-col justify-between">
-            <div className="text-[50px] font-bold">
+            <div className="lg:text-[50px] text-[30px] font-bold">
               BAKERSFIELD MOST REPUTABLE VENDING MACHINE PARTNER
             </div>
             <div className="font-bold">
@@ -21,10 +21,9 @@ export default function Home() {
             </div>
           </div>
             <div className="w-[442px] h-[516px] bg-white border border-blue-700 p-8">
-                <div className="text-[18px] font-extrabold flex flex-col items-center ">
-                    <div className="">GET SMART VENDING SERVICES</div>
-                    <div className="">INSTALLED AT <span className="text-blue-700">NO COST</span> TO YOUR</div>
-                    <div className="">ORGANIZATION</div>
+                <div className="md:text-[18px] text-[15px] font-extrabold text-center">
+                GET SMART VENDING SERVICES INSTALLED AT <span className="text-blue-700">NO COST</span> TO YOUR ORGANIZATION
+    
                 </div>
                 <hr className="border-blue-700 border"/>
                 <div className="flex flex-col justify-evenly">
